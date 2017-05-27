@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Weather from '../Weather/Weather'
 
 class App extends Component {
   constructor(props){
@@ -14,6 +14,7 @@ class App extends Component {
     return (
       <div>
           <h2>Welcome to React</h2>
+        <Weather />
       </div>
     );
   }
